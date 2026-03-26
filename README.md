@@ -1,1 +1,0 @@
-# barber-starter-site
