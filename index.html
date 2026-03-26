@@ -1,191 +1,227 @@
-
 <!DOCTYPE html>
 <html lang="de">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>BarberStyle Wien</title>
+    <title>Barber Corner Wien</title>
     <meta
       name="description"
-      content="Moderner Barbershop in Wien – Haarschnitt, Bartpflege und Styling."
+      content="Moderne Friseur- und Barbershop-Website für lokale Kunden in Wien."
     />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header class="header">
-      <div class="container nav">
-        <div class="logo">BarberStyle</div>
-        <nav class="nav-links">
+    <header class="site-header">
+      <div class="container header-row">
+        <div class="logo">Barber Corner</div>
+
+        <nav class="nav">
           <a href="#leistungen">Leistungen</a>
           <a href="#preise">Preise</a>
           <a href="#about">Über uns</a>
           <a href="#kontakt">Kontakt</a>
         </nav>
+
         <a class="btn btn-primary" href="#kontakt">Termin anfragen</a>
       </div>
     </header>
 
-    <section class="hero">
-      <div class="overlay"></div>
-      <div class="container hero-content">
-        <p class="badge">Premium Barbershop in Wien</p>
-        <h1>
-          Dein Style.<br />
-          Dein Auftritt.<br />
-          <span>Dein Barbershop.</span>
-        </h1>
-        <p class="hero-text">
-          Moderne Haarschnitte, saubere Fades und perfekte Bartpflege in
-          entspannter Atmosphäre.
-        </p>
-        <div class="hero-buttons">
-          <a class="btn btn-primary" href="#kontakt">Jetzt Termin anfragen</a>
-          <a class="btn btn-secondary" href="#leistungen">Leistungen ansehen</a>
-        </div>
-      </div>
-    </section>
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-content">
+            <p class="hero-badge">Barbershop in Wien</p>
+            <h1>Saubere Schnitte. Faire Preise. Direkter Kontakt.</h1>
+            <p class="hero-text">
+              Wir bieten moderne Haarschnitte, Bartpflege und einen entspannten
+              Service für Kunden, die Wert auf ein gepflegtes Erscheinungsbild legen.
+            </p>
 
-    <section id="leistungen" class="section">
-      <div class="container">
-        <p class="section-label">Leistungen</p>
-        <h2>Was wir anbieten</h2>
-
-        <div class="cards">
-          <div class="card">
-            <h3>Haarschnitt</h3>
-            <p>Moderne und klassische Styles, sauber und präzise umgesetzt.</p>
-            <strong>ab 20€</strong>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#kontakt">Jetzt anfragen</a>
+              <a class="btn btn-secondary" href="#preise">Preise ansehen</a>
+            </div>
           </div>
 
-          <div class="card">
-            <h3>Bartpflege</h3>
-            <p>Konturen, Pflege und ein sauberes Finish für deinen Look.</p>
-            <strong>ab 15€</strong>
-          </div>
-
-          <div class="card">
-            <h3>Komplettpaket</h3>
-            <p>Haarschnitt + Bart + Styling für einen frischen Gesamtlook.</p>
-            <strong>ab 30€</strong>
+          <div class="hero-image-box">
+            <div class="hero-image"></div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section id="preise" class="section section-dark">
-      <div class="container">
-        <p class="section-label">Preise</p>
-        <h2>Transparente Preise</h2>
-
-        <div class="price-box">
-          <div class="price-row price-head">
-            <span>Service</span>
-            <span>Preis</span>
+      <section class="info-strip">
+        <div class="container info-strip-grid">
+          <div class="info-item">
+            <strong>Adresse</strong>
+            <span>Musterstraße 12, 1010 Wien</span>
           </div>
-          <div class="price-row">
-            <span>Haarschnitt</span>
-            <span>20€</span>
+          <div class="info-item">
+            <strong>Telefon</strong>
+            <span>+43 660 1234567</span>
           </div>
-          <div class="price-row">
-            <span>Bart trimmen</span>
-            <span>15€</span>
-          </div>
-          <div class="price-row">
-            <span>Haarschnitt + Bart</span>
-            <span>30€</span>
-          </div>
-          <div class="price-row">
-            <span>Styling</span>
-            <span>10€</span>
+          <div class="info-item">
+            <strong>Öffnungszeiten</strong>
+            <span>Mo–Sa, 09:00 – 19:00</span>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section id="about" class="section">
-      <div class="container about">
-        <div>
-          <p class="section-label">Über uns</p>
-          <h2>Erfahrung, Stil und saubere Arbeit</h2>
-          <p class="about-text">
-            Wir stehen für moderne Herrenhaarschnitte, präzise Übergänge und
-            eine entspannte Atmosphäre. Unser Ziel ist nicht nur ein guter
-            Schnitt, sondern ein Look, mit dem du selbstbewusst rausgehst.
-          </p>
-          <p class="about-text">
-            Perfekt für Kunden, die Wert auf Qualität, Sauberkeit und Stil
-            legen.
-          </p>
-        </div>
-
-        <div class="about-image">
-          <div class="image-placeholder">Barbershop Bild</div>
-        </div>
-      </div>
-    </section>
-
-    <section id="kontakt" class="section section-dark">
-      <div class="container contact-grid">
-        <div>
-          <p class="section-label">Kontakt</p>
-          <h2>Buche deinen Termin</h2>
-          <p class="contact-text">
-            Ruf uns an, schreibe uns auf WhatsApp oder komm direkt vorbei.
-          </p>
-
-          <div class="contact-info">
-            <p><strong>Telefon:</strong> +43 660 1234567</p>
-            <p><strong>Adresse:</strong> Musterstraße 12, 1010 Wien</p>
-            <p><strong>Öffnungszeiten:</strong> Mo–Sa, 09:00–19:00</p>
+      <section class="section" id="leistungen">
+        <div class="container">
+          <div class="section-head">
+            <p class="section-label">Leistungen</p>
+            <h2>Unsere Services</h2>
+            <p class="section-text">
+              Alles, was du für einen frischen und gepflegten Look brauchst.
+            </p>
           </div>
 
-          <div class="hero-buttons">
-            <a class="btn whatsapp" href="https://wa.me/436601234567" target="_blank">WhatsApp</a>
-            <a class="btn btn-secondary" href="tel:+436601234567">Jetzt anrufen</a>
+          <div class="services-grid">
+            <div class="service-card">
+              <h3>Haarschnitt</h3>
+              <p>Klassische und moderne Schnitte sauber und präzise umgesetzt.</p>
+              <strong>ab 20€</strong>
+            </div>
+
+            <div class="service-card">
+              <h3>Bartpflege</h3>
+              <p>Konturen, Pflege und ein sauberes Finish für deinen Stil.</p>
+              <strong>ab 15€</strong>
+            </div>
+
+            <div class="service-card">
+              <h3>Haarschnitt + Bart</h3>
+              <p>Das praktische Komplettpaket für einen gepflegten Auftritt.</p>
+              <strong>ab 30€</strong>
+            </div>
           </div>
         </div>
+      </section>
 
-        <div class="form-box">
-          <form>
-            <label for="name">Name</label>
-            <input id="name" type="text" placeholder="Dein Name" />
+      <section class="section section-light" id="preise">
+        <div class="container">
+          <div class="section-head">
+            <p class="section-label">Preise</p>
+            <h2>Klare Preisübersicht</h2>
+          </div>
 
-            <label for="phone">Telefon</label>
-            <input id="phone" type="text" placeholder="Deine Nummer" />
-
-            <label for="message">Nachricht</label>
-            <textarea
-              id="message"
-              rows="5"
-              placeholder="Ich möchte einen Termin buchen..."
-            ></textarea>
-
-            <button type="submit" class="btn btn-primary full-width">
-              Anfrage senden
-            </button>
-          </form>
+          <div class="pricing-box">
+            <div class="pricing-row pricing-head">
+              <span>Service</span>
+              <span>Preis</span>
+            </div>
+            <div class="pricing-row">
+              <span>Haarschnitt</span>
+              <span>20€</span>
+            </div>
+            <div class="pricing-row">
+              <span>Bart trimmen</span>
+              <span>15€</span>
+            </div>
+            <div class="pricing-row">
+              <span>Haarschnitt + Bart</span>
+              <span>30€</span>
+            </div>
+            <div class="pricing-row">
+              <span>Styling</span>
+              <span>10€</span>
+            </div>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="section map-section">
-      <div class="container">
-        <div class="map-box">
-          <iframe
-            src="https://www.google.com/maps?q=Wien&output=embed"
-            width="100%"
-            height="350"
-            style="border: 0"
-            allowfullscreen=""
-            loading="lazy"
-          ></iframe>
+      <section class="section" id="about">
+        <div class="container about-grid">
+          <div class="about-content">
+            <p class="section-label">Über uns</p>
+            <h2>Einfach guter Service für jeden Tag</h2>
+            <p>
+              Bei uns stehen saubere Arbeit, freundlicher Service und faire Preise
+              im Mittelpunkt. Unser Ziel ist ein Look, mit dem du dich direkt wohlfühlst.
+            </p>
+            <p>
+              Ideal für Kunden, die schnell, unkompliziert und professionell betreut
+              werden möchten.
+            </p>
+          </div>
+
+          <div class="about-box">
+            <div class="about-box-inner">
+              <strong>Warum Kunden uns wählen</strong>
+              <ul>
+                <li>Faire Preise</li>
+                <li>Schneller Termin</li>
+                <li>Saubere Schnitte</li>
+                <li>Direkter Kontakt per WhatsApp</li>
+              </ul>
+            </div>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <footer class="footer">
-      <div class="container">
-        <p>© 2026 BarberStyle Wien. Alle Rechte vorbehalten.</p>
+      <section class="section section-light" id="kontakt">
+        <div class="container contact-grid">
+          <div class="contact-content">
+            <p class="section-label">Kontakt</p>
+            <h2>Einfach Termin anfragen</h2>
+            <p class="section-text">
+              Ruf uns an, schreibe uns auf WhatsApp oder nutze das Formular.
+            </p>
+
+            <div class="contact-list">
+              <p><strong>Telefon:</strong> +43 660 1234567</p>
+              <p><strong>Adresse:</strong> Musterstraße 12, 1010 Wien</p>
+              <p><strong>Öffnungszeiten:</strong> Mo–Sa, 09:00 – 19:00</p>
+            </div>
+
+            <div class="contact-actions">
+              <a class="btn btn-whatsapp" href="https://wa.me/436601234567" target="_blank">WhatsApp</a>
+              <a class="btn btn-secondary" href="tel:+436601234567">Jetzt anrufen</a>
+            </div>
+          </div>
+
+          <div class="form-box">
+            <form>
+              <label for="name">Name</label>
+              <input id="name" type="text" placeholder="Dein Name" />
+
+              <label for="phone">Telefon</label>
+              <input id="phone" type="text" placeholder="Deine Nummer" />
+
+              <label for="message">Nachricht</label>
+              <textarea
+                id="message"
+                rows="5"
+                placeholder="Ich möchte einen Termin buchen..."
+              ></textarea>
+
+              <button type="submit" class="btn btn-primary btn-full">
+                Anfrage senden
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <section class="section map-section">
+        <div class="container">
+          <div class="map-box">
+            <iframe
+              src="https://www.google.com/maps?q=Wien&output=embed"
+              width="100%"
+              height="320"
+              style="border: 0"
+              loading="lazy"
+              allowfullscreen=""
+            ></iframe>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-row">
+        <p>© 2026 Barber Corner Wien. Alle Rechte vorbehalten.</p>
       </div>
     </footer>
 
